@@ -1,0 +1,18 @@
+[package]
+name = "ZKYCCommitment"
+version = "1.0.0"
+authors = []
+
+[addresses]
+zkyc_addr = "9175b7f40af784e87c61d184c1da91c090893348b5fc64b3484fe44c25081af1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-stdlib"
+
